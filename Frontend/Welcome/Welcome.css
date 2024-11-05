@@ -1,0 +1,128 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  body, html {
+    font-family: Arial, sans-serif;
+    color: #013b95;
+  }
+  
+  .front-container {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .navbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #f0f8ff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+  }
+  
+  .logo img {
+    width: 3.5rem;
+  }
+  
+  .logo h2 {
+    color: #013b95;
+    font-family: 'Cursive', sans-serif;
+    font-size: 1.5rem;
+  }
+  
+  .btn-group {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .btn-group button {
+    height: 2.5rem;
+    border-radius: 1rem;
+    width: 8rem;
+    font-weight: 600;
+    cursor: pointer;
+    border: none;
+    transition: all 0.3s ease;
+  }
+  
+  .signup-btn {
+    background-color: aliceblue;
+    color: #013b95;
+  }
+  
+  .login-btn {
+    background-color: #013b95;
+    color: aliceblue;
+  }
+  
+  .btn-group button:hover {
+    transform: scale(1.05);
+  }
+  
+  .container-img {
+    width: 90%;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container-img img {
+    width: 100%;
+    max-height: 70vh;
+    object-fit: cover;
+    border-radius: 1rem;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  @media (max-width: 768px) {
+    .navbar {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .logo img {
+      width: 3rem;
+    }
+  
+    .logo h2 {
+      font-size: 1.2rem;
+    }
+  
+    .btn-group {
+      margin-top: 1rem;
+    }
+  
+    .container-img img {
+      max-height: 60vh;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .navbar {
+      padding: 1rem;
+    }
+  
+    .logo h2 {
+      font-size: 1rem;
+    }
+  
+    .btn-group button {
+      width: 7rem;
+      font-size: 0.9rem;
+    }
+  }
+  

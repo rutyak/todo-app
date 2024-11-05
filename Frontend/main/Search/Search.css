@@ -1,0 +1,19 @@
+.search input{
+    border: 1px solid gray;
+    border-radius: 0.6rem;
+    padding-left: 0.7rem;
+    padding: 0.2rem;
+    padding-left: 0.7rem;
+    background: #252538;
+    width: 300px;
+    height: 36px;
+    color: #93c6b5;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.search img{
+    position: absolute;
+    width: 20px;
+    margin-left: -34px;
+    margin-top: 7px;
+}
